@@ -15,7 +15,7 @@ The two experiments reported in the paper are available to run:
   <img src="MNIST_EncorderDecoder/architecture.png" alt="Architecture of the encoder decoder architecture used in the experiment with MNIST" width="480">
 </p>
 
-- Training [HiDDeN](https://arxiv.org/abs/1807.09937) on [ChestX-ray8](https://arxiv.org/abs/1705.02315) dataset, imposing that the watermarked image is similar to the cover image in terms of the PSNR
+- Medical image watermarking employing [HiDDeN](https://arxiv.org/abs/1807.09937) on [ChestX-ray8](https://arxiv.org/abs/1705.02315) dataset, imposing an explicit penalty constraint based on Peak Signal-to-Noise Ratio (PSNR) to preserve the perceptual quality of the watermarked image.
 <p align="center">
   <img src="HiDDeN/plots_hidden/watermark0.png" alt="Example of watermakred images with HiDDeN using the sequential penalty method" width="600">
 </p>
