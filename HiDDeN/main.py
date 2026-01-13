@@ -24,7 +24,7 @@ def main():
     new_run_parser = subparsers.add_parser('new', help='starts a new run')
     new_run_parser.add_argument('--data-dir', '-d', type=str, required=True,
                                 help='The directory where the data is stored.')
-    new_run_parser.add_argument('--batch-size', '-b', required=True, type=int, help='The batch size.')
+    new_run_parser.add_argument('--batch-size', '-b', type=int, default=32, help='The batch size.')
     new_run_parser.add_argument('--epochs', '-e', default=200, type=int, help='Number of epochs to run the simulation.')
     new_run_parser.add_argument('--name', default='', type=str, help='The name of the experiment.')
     
