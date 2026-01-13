@@ -91,12 +91,12 @@ Other parameters are specified in `HiDDeN/main.py`.
 To run the experiments reported in the paper, execute:
 ```
 # baseline model
-python HiDDeN/main.py new -d DASET_PATH -e 200 --name hidden -m 200
+python HiDDeN/main.py new -d DATASET_PATH -e 200 --name hidden -m 200
 
 # sequential penalty trained models
-python HiDDeN/main.py new -d DASET_PATH --penalty 0.1 1.1 10 --PSNR 30 -e 200 -m 200
-python HiDDeN/main.py new -d DASET_PATH --penalty 0.1 1.1 10 --PSNR 40 -e 200 -m 200
-python HiDDeN/main.py new -d DASET_PATH --penalty 0.1 1.1 10 --PSNR 50 -e 200 -m 200
+python HiDDeN/main.py new -d DATASET_PATH --penalty 0.1 1.1 10 --PSNR 30 -e 200 -m 200
+python HiDDeN/main.py new -d DATASET_PATH --penalty 0.1 1.1 10 --PSNR 40 -e 200 -m 200
+python HiDDeN/main.py new -d DATASET_PATH --penalty 0.1 1.1 10 --PSNR 50 -e 200 -m 200
 ```
 
 It is possible to use the functions in `HiDDeN/make_plots` to obtain the plots reported in the paper and to train and test the classifier that is used with the watermarked images.
