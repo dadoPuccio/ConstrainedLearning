@@ -90,7 +90,7 @@ def train(model: Hidden,
             tb_logger.save_tensors(epoch)
 
         first_iteration = True
-        save_each = 100
+        save_each = 1 # 10
         validation_losses = defaultdict(AverageMeter)
         logging.info('Running validation for epoch {}/{}'.format(epoch, train_options.number_of_epochs))
 
