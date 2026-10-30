@@ -1,7 +1,7 @@
 # ConstrainedLearning
 Implementation of a Sequential Penalty Method for Training Neural Networks with Explicit Constraints presented in 
 
-[Sample-wise Constrained Learning via a Sequential Penalty Approach with Applications in Image Processing - Lanzillotta L., Albisani C., Pucci D., Baracchi D., Piva A., Lapucci M.](https://arxiv.org/abs/2601.16812)
+[Sample-wise Constrained Learning via a Sequential Penalty Approach with Applications in Image Processing - Lanzillotta L., Albisani C., Pucci D., Baracchi D., Piva A., Lapucci M.](https://openreview.net/forum?id=Xi1UWSFooI)
 
 The algorithmic framework handles training problems with per-sample constraints
 
@@ -106,13 +106,14 @@ It is possible to use the functions in `HiDDeN/make_plots` to obtain the plots r
 In case you employed our code for research purposes, please cite:
 
 ```
-@misc{lanzillotta2026samplewiseconstrainedlearningsequential,
-      title={Sample-wise Constrained Learning via a Sequential Penalty Approach with Applications in Image Processing}, 
-      author={Francesca Lanzillotta and Chiara Albisani and Davide Pucci and Daniele Baracchi and Alessandro Piva and Matteo Lapucci},
-      year={2026},
-      eprint={2601.16812},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2601.16812}, 
+@article{
+  lanzillotta2026samplewise,
+  title={Sample-wise Constrained Learning via a Sequential Penalty Approach with Applications in Image Processing},
+  author={Francesca Lanzillotta and Chiara Albisani and Davide Pucci and Daniele Baracchi and Alessandro Piva and Matteo Lapucci},
+  journal={Transactions on Machine Learning Research},
+  issn={2835-8856},
+  year={2026},
+  url={https://openreview.net/forum?id=Xi1UWSFooI},
+  note={}
 }
 ```
